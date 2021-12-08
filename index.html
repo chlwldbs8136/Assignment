@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Covid-19</title>
+    <link href="region/select/css/index.css" type="text/css" rel="stylesheet">
+    <script>
+        function movHTML() {
+            var select = document.getElementById("select").value;
+            window.location.href=select;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div><h1>Covid-19 선별진료소</h1></div>
+    <hr>
+    </header>
+    <nav id="nav">
+        <h1>현재 지역을 입력하세요</h1>
+        <strong>지역을 입력하면 해당 지역의 선별진료소 위치를 나타냅니다.</strong><br>
+    </nav>
+    <section">
+        <select id="select" style="background-color: rgba(250, 250, 250, 0.712);">
+            <option value="region/Seoul.html" style="color: black;"ssss>서울</option>
+            <option value="region/Busan.html" style="color: black;">부산</option>
+            <option value="region/Daegu.html" style="color: black;">대구</option>
+            <option value="region/Gyeonggi.html" style="color: black;">경기</option>
+            <option value="region/Incheon.html" style="color: black;">인천</option>
+            <option value="region/Daejeon.html" style="color: black;">대전</option>
+            <option value="region/Gwangju.html" style="color: black;">광주</option>
+            <option value="region/Ulsan.html" style="color: black;">울산</option>
+            <option value="region/Chungbuk.html" style="color: black;">충북</option>
+            <option value="region/Chungnam.html" style="color: black;">충남</option>
+            <option value="region/Gangwon.html" style="color: black;">강원</option>
+            <option value="region/Jeonbuk.html" style="color: black;">전북</option>
+            <option value="region/Jeonnam.html" style="color: black;">전남</option>
+            <option value="region/Gyeongbuk.html" style="color: black;">경북</option>
+            <option value="region/Gyeongnam.html" style="color: black;">경남</option>
+            <option value="region/Jeju.html" style="color: black;">제주</option>
+        </select>
+    </section>
+    <footer id="footer">
+        <button onclick="movHTML()">Enter</button>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+#menubar{
+    background-color: white;
+}
+#menubar ul {
+    margin: 0;
+    padding: 0;
+}
+#menubar ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#menubar ul li a {
+    color: gray;
+    text-decoration-line: none;
+
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+#header-div{
+    display: block;
+}
+div div {
+    display: inline-block;
+}
+#home {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
