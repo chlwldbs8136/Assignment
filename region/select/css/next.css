@@ -1,5 +1,13 @@
+body{
+    background-color: beige;
+}
+#region{
+    margin-left: 20px;
+    padding: 5px;
+    
+}
 #menubar{
-    background-color: white;
+    background-color: beige;
 }
 #menubar ul {
     margin: 0;
@@ -40,4 +48,7 @@ div div {
     position: fixed;
     top: 20px;
     right: 30px;
+}
+.tg {
+    background-color: white;
 }
