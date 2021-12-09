@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(252, 228, 232);
+    background-color: rgb(240, 240, 232);
 }
 
 #region{
@@ -9,7 +9,7 @@ body{
     background-size: cover;
 }
 #menubar{
-    background-color: rgb(248, 226, 229);
+    background-color: rgb(240, 240, 232);
 }
 #menubar ul {
     margin: 0;
