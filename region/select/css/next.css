@@ -1,5 +1,12 @@
+:root {
+    --text-color: #f0f4f5;
+    --accent-color: #A67F78;
+    --background-color: #E1DCD9;
+    --hover-backgroud-color: #32435F; /*#8F8681*/
+}
+
 body{
-    background-color: rgb(240, 240, 232);
+    background-color: var(--background-color);
 }
 
 #region{
@@ -9,7 +16,7 @@ body{
     background-size: cover;
 }
 #menubar{
-    background-color: rgb(240, 240, 232);
+    background-color: var(--background-color);
 }
 #menubar ul {
     margin: 0;
@@ -22,6 +29,13 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+#menubar ul li a:hover {
+    color: var(--text-color);
+    background-color: var(--hover-backgroud-color);
+    border-radius: 4px ;
+}
+
 #menubar ul li a {
     color: gray;
     text-decoration-line: none;
@@ -37,9 +51,10 @@ a{
 a:visited{
     color: black;
 }
-a:link{
+/* a:link{
     text-decoration: none;
-}
+} */
+
 #header-div{
     display: block;
 }
@@ -53,4 +68,8 @@ div div {
 }
 .tg {
     background-color: white;
+}
+
+.tg tr {
+    text-align: center;
 }
