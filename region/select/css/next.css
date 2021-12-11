@@ -1,4 +1,5 @@
 :root {
+    /* 기본값 설정 */
     --text-color: #f0f4f5;
     --accent-color: #A67F78;
     --background-color: #E1DCD9;
@@ -8,13 +9,14 @@
 body{
     background-color: var(--background-color);
 }
-
+/* 지역 글씨 style */
 #region{
     margin-left: 20px;
 }
-#img{
+/* #img{
     background-size: cover;
-}
+} */
+/* 메뉴바 색상 설정 */
 #menubar{
     background-color: var(--background-color);
 }
@@ -22,6 +24,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* 메뉴바 style */
 #menubar ul li {
     display: inline-block;
     list-style-type: none;
@@ -29,13 +32,13 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+/* menubar에 마우스 올리면 색상 변경 */
 #menubar ul li a:hover {
     color: var(--text-color);
     background-color: var(--hover-backgroud-color);
     border-radius: 4px ;
 }
-
+/* 기본 색상 설정 */
 #menubar ul li a {
     color: gray;
     text-decoration-line: none;
@@ -48,12 +51,10 @@ li{
 a{
     text-decoration: none;
 }
+/* a 태그 visited 후 색상 black */
 a:visited{
     color: black;
 }
-/* a:link{
-    text-decoration: none;
-} */
 
 #header-div{
     display: block;
@@ -61,6 +62,7 @@ a:visited{
 div div {
     display: inline-block;
 }
+/* home 태그 style */
 #home {
     position: fixed;
     top: 20px;
