@@ -29,6 +29,7 @@ select {
     line-height: 150px;
     font-family: sans-serif;
 }
+/* 버튼 style 설정 */
 button {
     display: block;
     margin: 0 auto;
